@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D0C718882405521D00007CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C718872405521D00007CD2 /* AppDelegate.swift */; };
-		D0C7188C2405521D00007CD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C7188B2405521D00007CD2 /* ViewController.swift */; };
 		D0C718912405521E00007CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C718902405521E00007CD2 /* Assets.xcassets */; };
 		D0C718942405521E00007CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C718922405521E00007CD2 /* LaunchScreen.storyboard */; };
-		D0C7189C240553AE00007CD2 /* GoodsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C7189B240553AE00007CD2 /* GoodsDetailViewController.swift */; };
+		D0C718A52405621F00007CD2 /* GoodsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C718A32405621F00007CD2 /* GoodsDetailViewController.swift */; };
+		D0C718A62405621F00007CD2 /* GoodsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C718A42405621F00007CD2 /* GoodsDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0C718842405521D00007CD2 /* GoodsDetailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodsDetailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C718872405521D00007CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0C7188B2405521D00007CD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0C718902405521E00007CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C718932405521E00007CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0C718952405521E00007CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0C7189B240553AE00007CD2 /* GoodsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsDetailViewController.swift; sourceTree = "<group>"; };
+		D0C718A32405621F00007CD2 /* GoodsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsDetailViewController.swift; sourceTree = "<group>"; };
+		D0C718A42405621F00007CD2 /* GoodsDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodsDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				D0C718872405521D00007CD2 /* AppDelegate.swift */,
-				D0C7188B2405521D00007CD2 /* ViewController.swift */,
 				D0C718902405521E00007CD2 /* Assets.xcassets */,
 				D0C718922405521E00007CD2 /* LaunchScreen.storyboard */,
 				D0C718952405521E00007CD2 /* Info.plist */,
-				D0C7189B240553AE00007CD2 /* GoodsDetailViewController.swift */,
+				D0C718A32405621F00007CD2 /* GoodsDetailViewController.swift */,
+				D0C718A42405621F00007CD2 /* GoodsDetailViewController.xib */,
 			);
 			path = GoodsDetailDemo;
 			sourceTree = "<group>";
@@ -123,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C718942405521E00007CD2 /* LaunchScreen.storyboard in Resources */,
+				D0C718A62405621F00007CD2 /* GoodsDetailViewController.xib in Resources */,
 				D0C718912405521E00007CD2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,9 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C7188C2405521D00007CD2 /* ViewController.swift in Sources */,
 				D0C718882405521D00007CD2 /* AppDelegate.swift in Sources */,
-				D0C7189C240553AE00007CD2 /* GoodsDetailViewController.swift in Sources */,
+				D0C718A52405621F00007CD2 /* GoodsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
