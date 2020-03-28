@@ -101,7 +101,7 @@ class GoodsDetailViewController: UIViewController {
     }
     
     fileprivate func showFoot() {
-        
+        FloatingViewController.showTo(parent: self)
     }
     
     fileprivate func hideDetail() {

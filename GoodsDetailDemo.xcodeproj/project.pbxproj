@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A2C830242F2D37005C949F /* FloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2C82F242F2D37005C949F /* FloatingViewController.swift */; };
+		D0A2C834242F2DE6005C949F /* FloatingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A2C833242F2DE6005C949F /* FloatingHeaderView.xib */; };
+		D0A2C835242F3B3D005C949F /* FloatingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2C831242F2DCE005C949F /* FloatingHeaderView.swift */; };
+		D0C0E013242F3DEE0096BA0D /* FloatingCardScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E012242F3DEE0096BA0D /* FloatingCardScrollView.swift */; };
 		D0C718882405521D00007CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C718872405521D00007CD2 /* AppDelegate.swift */; };
 		D0C718912405521E00007CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C718902405521E00007CD2 /* Assets.xcassets */; };
 		D0C718942405521E00007CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C718922405521E00007CD2 /* LaunchScreen.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0A2C82F242F2D37005C949F /* FloatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingViewController.swift; sourceTree = "<group>"; };
+		D0A2C831242F2DCE005C949F /* FloatingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingHeaderView.swift; sourceTree = "<group>"; };
+		D0A2C833242F2DE6005C949F /* FloatingHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatingHeaderView.xib; sourceTree = "<group>"; };
+		D0C0E012242F3DEE0096BA0D /* FloatingCardScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingCardScrollView.swift; sourceTree = "<group>"; };
 		D0C718842405521D00007CD2 /* GoodsDetailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodsDetailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C718872405521D00007CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C718902405521E00007CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 				D0C718952405521E00007CD2 /* Info.plist */,
 				D0C718A32405621F00007CD2 /* GoodsDetailViewController.swift */,
 				D0C718A42405621F00007CD2 /* GoodsDetailViewController.xib */,
+				D0A2C82F242F2D37005C949F /* FloatingViewController.swift */,
+				D0A2C831242F2DCE005C949F /* FloatingHeaderView.swift */,
+				D0A2C833242F2DE6005C949F /* FloatingHeaderView.xib */,
+				D0C0E012242F3DEE0096BA0D /* FloatingCardScrollView.swift */,
 			);
 			path = GoodsDetailDemo;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 				D0C718942405521E00007CD2 /* LaunchScreen.storyboard in Resources */,
 				D0C718A62405621F00007CD2 /* GoodsDetailViewController.xib in Resources */,
 				D0C718912405521E00007CD2 /* Assets.xcassets in Resources */,
+				D0A2C834242F2DE6005C949F /* FloatingHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A2C830242F2D37005C949F /* FloatingViewController.swift in Sources */,
 				D0C718882405521D00007CD2 /* AppDelegate.swift in Sources */,
 				D0C718A52405621F00007CD2 /* GoodsDetailViewController.swift in Sources */,
+				D0C0E013242F3DEE0096BA0D /* FloatingCardScrollView.swift in Sources */,
+				D0A2C835242F3B3D005C949F /* FloatingHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
